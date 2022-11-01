@@ -119,7 +119,7 @@ h4{
 	width: 550px;
 }
 .main{
-	width: 1130px;
+	width:100%;
 	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
