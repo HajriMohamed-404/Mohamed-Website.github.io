@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 .hero{
-	width: 100%;
+	width: 120%;
     min-height: 100vh;
     align-items: center;
     background: url(../img/background.jpg)no-repeat ;
@@ -18,14 +18,15 @@ nav{
 	align-items: center;
 	justify-content: space-between;
 	padding-top: 45px;
-	padding-left: 8%;
-	padding-right: 8%;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 .logo{
 	color: white;
-	font-size: 35px;
+	font-size:35px;
 	letter-spacing: 1px;
 	cursor: pointer;
+	position:relative;
 }
 span{
 	color: #f9004d;
@@ -107,7 +108,7 @@ h4{
 }
 
 .about{
-	width: 100%;
+	width: 120%;
 	padding: 100px 0px;
 	background-color: #191919;
 }
@@ -128,6 +129,10 @@ h4{
 	border-style: double;
 	border-color: #f9004d;
 	border-radius: 6%;
+	padding-left: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%;
 	
 }
 .about-text h2{
@@ -168,7 +173,7 @@ button:hover{
 
 .service{
 	background: #101010;
-	width: 100%;
+	width: 120%;
 	padding: 100px 0px;
 }
 .title h2{
@@ -230,7 +235,7 @@ h5{
 	cursor: pointer;
 }
 .contact-me{
-	width: 100%;
+	width: 120%;
 	height: 290px;
 	background: #191919;
 	display: flex;
@@ -261,7 +266,7 @@ h5{
 }
 footer{
 	position: relative;
-	width: 100%;
+	width: 120%;
 	height: 400px;
 	background: #101010;
 	display: flex;
@@ -308,31 +313,41 @@ footer p:nth-child(2){
 	bottom: 35px;
 	font-size: 14px; 
 }
+.mohamed{
+	border-style: groove;
+	border-color: #f9004d;
+	border-radius: 8px;
+	
+}
 
-@media (max-width:641px){
+@media (min-width:1024px){
 	
 	.hero{
-		min-height:20vh;
+		width:100%;
 	}
-	.content{
-		position: absolute;
-	    top: 20%;
-	    left:2%;
-	    transform: translateY(-10%);
-
+	.about{
+		width:100%;
 	}
-	.hero-content h2{
-        font-size: 1em;
-    }
-
-    .hero-content h3{
-        font-size: 1.6em;
-    }
-
+	.service{
+		width: 100%;
+	}
+	.contact-me{
+		width:100%
+	}
+	footer{
+		width:100%;
+	}
+	
 
 
 	
 	
+	}
+	@media (max-width:1024px){
+		.logo{
+			width: 100%;
+			font-size:50px;
+		}
 	}
 	
 
