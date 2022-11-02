@@ -121,7 +121,7 @@ h4{
 }
 .main{
 	width:1300px;
-	max-width: 100%;
+	max-width: 95%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -134,12 +134,14 @@ h4{
 	padding-bottom: 5%;
 	padding-right: 5%;
 	
+	
 }
 .about-text h2{
 	color: white;
 	font-size: 75px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
+	margin-left:20%;
 }
 .about-text h5{
 	color: white;
@@ -147,6 +149,7 @@ h4{
 	font-size: 22px;
 	margin-bottom: 25px;
 	text-transform: capitalize;
+	margin-left:2%;
 }
 .about-text p{
 	color: #fcfc;
@@ -154,6 +157,7 @@ h4{
 	line-height: 28px;
 	font-size: 18px;
 	margin-bottom: 45px;
+	margin-left:2%;
 }
 button{
 	background-color:#f9004d;
@@ -163,7 +167,8 @@ button{
 	font-weight: bold;
 	padding: 13px 30px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: 4s; 
+	margin-left:40%;
 }
 button:hover{
 	background-color: transparent;
@@ -347,6 +352,9 @@ footer p:nth-child(2){
 		.logo{
 			width: 100%;
 			font-size:50px;
+		}
+		.btn{
+			font-size: 50px;
 		}
 	}
 	
