@@ -325,7 +325,7 @@ footer p:nth-child(2){
 	
 }
 
-@media (min-width:1024px){
+@media (min-width:1331px){
 	
 	.hero{
 		width:100%;
@@ -344,18 +344,14 @@ footer p:nth-child(2){
 	}
 	
 
-
 	
 	
 	}
-	@media (max-width:1024px){
+	@media (max-width:1331px){
 		.logo{
-			width: 100%;
-			font-size:50px;
+			font-size:60px;
 		}
-		.btn{
-			font-size: 50px;
-		}
+		
 	}
 	
 
