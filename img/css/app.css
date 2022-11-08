@@ -1,0 +1,54 @@
+*{
+	font-family:'Josefin Sans';
+	box-sizing: border-box;
+}
+body{
+	background-color: #191919;
+}
+.title{
+	color: white;
+	text-align: center;
+}
+span{
+	color:#f9004d;
+}
+header{
+	border-style:ridge;
+	border-color: #f9004d;
+	border-radius: 2%;
+	
+}
+section{
+
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+
+	border-style:;
+	border-color: #f9004d;
+	border-radius: 2%;
+	
+
+}
+.par{
+	font-family: none;
+	color:white;
+	font-size: 20px;
+}
+h3{
+	color:#f9004d;
+}
+.end{
+	text-align: center;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px;
+}
+@media (max-width:1024px){
+	.par{
+		font-size: 14px;
+	}
+	span{
+		font-size: 14px;
+	}
+}
